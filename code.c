@@ -354,8 +354,8 @@ void useArtillery(Player *p, Player *opponent, int x, int y, int *shipSunk) {
                 printf("Old Hit at %c%d\n", 'A' + j, i + 1); 
             } else {
                 printf("Miss at %c%d\n", 'A' + j, i + 1);
-                opponent->board[x][y] = 'O';
-                p->tracking[x][y] = 'O'; 
+                opponent->board[i][j] = 'O';
+                p->tracking[i][j] = 'O'; 
             }
         }
     }
