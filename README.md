@@ -1,2 +1,2 @@
 # Battle2024 Developers
-CMPS 270 - PROJECT
+This project is a feature-rich implementation of the classic Battleship game in C, offering both two-player and Bot modes with 2 difficulty levels (easy and hard). Players take turns and moves like fire, radar sweeps, smoke screens, artillery, and tornado.The game includes input validation, dynamic ship placement, and a turn-based mechanism to ensure fair gameplay. A smart bot algorithm adds a challenging experience by targeting hits and utilizing advanced moves. This project delivers an engaging and tactical gaming experience.
